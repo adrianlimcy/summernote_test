@@ -45,6 +45,7 @@ gem 'jquery-rails'
 # summernote requirements
 gem 'summernote-rails', '~> 0.8.10.0'
 gem 'simple_form', '~> 3.5.1'
+gem 'carrierwave'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console

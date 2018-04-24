@@ -32,6 +32,11 @@ Testing Summernote
     //= require activestorage
     //= require turbolinks
     //= require_tree .
-11. rails g controller home index
+11. rails g scaffold Post title content:text
 12. configure root
 13. rails g simple_form:install --bootstrap
+14. gem 'carrierwave'
+15. rails g model Upload image
+16. rails g uploader Image
+17. rails g controller uploads create destroy
+18. raw() method to view
